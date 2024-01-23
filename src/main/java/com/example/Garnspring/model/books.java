@@ -20,7 +20,7 @@ public class books {
     
     private Set<author> authors = new HashSet<>();
     
-    public book();{
+    public book(){
 }
     public author(String title,String isbn,String publisher){
         this.title=title;
