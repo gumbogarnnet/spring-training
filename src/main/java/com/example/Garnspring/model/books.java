@@ -36,17 +36,17 @@ public class books {
         this.author=authors;
     }
      public long getid(){return id;}
-     public void setid (string id){this id=id}
+     public void setid (string id){this id=id;}
      public String gettitle(){return title;}
-     public void settitle(String title){this title=title}
+     public void settitle(String title){this title=title;}
      
       public String getisbn(){return isbn;}
-     public void setisbn(String isbn){this isbn=isbn}
+     public void setisbn(String isbn){this isbn=isbn;}
      
       public String getpublisher(){return publisher;}
-     public void setpublisher(String publisher){this publisher=publisher}
+     public void setpublisher(String publisher){this publisher=publisher;}
      
       public Set<Author> getAuthors(){return authors;}
-     public void setAuthors  (Set<Authors> authors){this authors=authors}
+     public void setAuthors  (Set<Authors> authors){this authors=authors;}
     
 }
